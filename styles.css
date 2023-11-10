@@ -1,13 +1,22 @@
 body{
-    background-color:blanchedalmond;
+    background-color: black;
 }
-
 #gameboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 300px;
+    
+
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+
 }
 
 .square{
@@ -21,18 +30,20 @@ body{
     width: 25%;
     text-align: center;
     font-size: 80px;
-    background-color: pink;
+    background-color: palevioletred;
+    
 }
 
 input{
-    background-color: pink;
+    background-color: palevioletred;
 }
 
 button{
-    background-color: pink;
+    background-color: palevioletred;
 }
 
 #controls,#message {
     text-align: center;
     margin: 20px 0;
+    color: palevioletred;
 }

@@ -72,7 +72,7 @@
 
             if (checkForWin(Gameboard.getGameBoard(), players[currentPlayerIndex].mark)){
                 gameOver = true;
-                displayController.renderMessage(`${players[currentPlayerIndex].name} wins 💪🏿`);
+                displayController.renderMessage(`${players[currentPlayerIndex].name} wins `);
             }else if (checkForTie(Gameboard.getGameBoard())){
                 gameOver = true;
                 displayController.renderMessage("its a tie");
